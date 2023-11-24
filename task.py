@@ -55,8 +55,7 @@ class Task:
             return False, "time"
         return True, None
 
-'''''
-# Test unitaire
+#Test unitaire
 def test_task_equality():
     a = Task("task1")
 
@@ -74,4 +73,3 @@ def test_task_equality():
 
 
 test_task_equality()
-'''
