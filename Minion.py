@@ -17,8 +17,8 @@ class Minion(QueueClient):
 
             task.work()  # Execute the task
             print(f"Task {task.identifier} completed in {task.time:.4f} seconds.")
-            print(f"a: {task.a}")
-            print(f"b: {task.b}")
+            #print(f"a: {task.a}")
+            #print(f"b: {task.b}")
             self.results.put(task)  # Send the result to the results queue
             print(f"Result of Task {task.identifier} sent.")
             print("----------")
