@@ -16,7 +16,6 @@ class QueueManager(BaseManager):
 
 class QueueClient:
     """Base class for users of the Queue."""
-
     def __init__(self):
         QueueManager.register("get_tasks")
         QueueManager.register("get_results")
