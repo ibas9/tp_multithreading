@@ -21,4 +21,4 @@ Make sure you have Python installed on your system.
 => La partie Python est fonctionnelle.
 
 # PARTIE CPP
-Lors du TP en C++, je n'ai pas réussi à dépasser l'étape de l'écriture du fichier low_level.cpp. Une grande partie de mon temps a été consacrée à résoudre des problèmes avec CMAKE. J'ai été confronté à des complications liées à la compilation avec Visual Studio et NMake, qui ont absorbé une grande partie de mon temps. Ces difficultés techniques m'ont empêché de tester efficacement mon code et avoir un retard dans le rendu ..
+During the C++ lab, I was unable to get past the stage of writing the low_level.cpp file. Much of my time was spent troubleshooting issues with CMAKE. I faced compilation complications with Visual Studio and NMake, which took up a lot of my time. These technical difficulties prevented me from effectively testing my code and having a delay in submitting the work..
