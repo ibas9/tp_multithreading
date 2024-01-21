@@ -52,6 +52,7 @@ class Minion {
     }
 
     auto start = std::chrono::high_resolution_clock::now();
+    // we wanted to optimize the computation using SVD with ComputeThinU and ComputeThinV because we know that C++ is already more performant than Python so we wanted to see to what extent we can still optimize
     solutionVector = matrixCoefficients.bdcSvd(Eigen::ComputeThinU | Eigen::ComputeThinV).solve(vectorTerms);
     auto end = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double, std::milli> elapsedTime = end - start;
